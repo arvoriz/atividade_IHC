@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho {
+    background-image: url("../Imagens/Imagem\ header.jpg") ;
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    text-align: end;
+    padding-right: 15px;
+}
+
+.cabeçalho li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;   
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.cabeçalho a{
+    text-decoration: none;
+    color: white;
+}
+
+.cabeçalho_content{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.cabeçalho_content h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.cabeçalho_content p{
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding: 15px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section_content{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 60px;
+}
+
+#imagens{
+    display: flex;
+}
+
+.section_content .card{
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.section_content .card img{
+    width: 300px;
+}
+
+.section_content .card p{
+    padding: 5px;
+    margin-left: 15px;
+}
+
+article h2{
+    background-color: lightgray;
+    padding: 15px;
+    border-bottom: 3px solid grey;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+}
